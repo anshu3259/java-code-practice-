@@ -1,0 +1,24 @@
+Given three lines that print the values of a, b, and c. Comment out the line that prints the value of b.
+
+Comments are useful in any programming language to describe the purpose of functions or operations.
+They are ignored by the compiler, so they do not affect the execution of the code.
+
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        // Prints a
+        System.out.println(a);
+
+        // Prints b
+        //System.out.println(b);
+
+        // Prints c
+        System.out.println(c);
+    }
+}
