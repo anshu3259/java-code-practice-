@@ -1,0 +1,17 @@
+Given a number n, use the if statement to print "Big" (without quotes) 
+if the given number is greater than 100. The statement "Number" (without quotes) will be printed regardless.
+
+import java.util.*;
+
+public class Solution {
+    public static void solve() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        // code here
+        if(n>100){
+            System.out.println("Big");
+        }
+            System.out.println("Number");
+    
+    }
+}
