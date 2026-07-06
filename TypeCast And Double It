@@ -1,0 +1,16 @@
+Given an input num as a string. You need to typecast into an integer and double it. 
+
+import java.util.*;
+
+class GFG {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String num = sc.nextLine();
+        // TypeCast to int double it and print
+        int cal=Integer.parseInt(num);
+        System.out.println(cal*2);
+    }
+}
+
+
+
