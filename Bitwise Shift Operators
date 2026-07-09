@@ -1,0 +1,18 @@
+Given two positive integers a and b, perform a right bitwise shift of a by b positions, 
+followed by a left bitwise shift of a by b positions. Print both results separated by a space, followed by new line.
+
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        // code here
+        int right=a>>b;
+        int left=a<<b;
+        System.out.println(right+" "+left);
+    }
+}
