@@ -1,0 +1,19 @@
+Given a deque dq containing integer elements, the task is to traverse the dq and print elements of it. 
+
+class Solution {
+    public static void printDeque(ArrayDeque<Integer> deq) {
+        // code here
+       boolean first = true;
+
+for (int num : deq) {
+    if (!first) {
+        System.out.print(" ");
+    }
+    System.out.print(num);
+    first = false;
+}
+
+System.out.println();
+    
+}
+}
