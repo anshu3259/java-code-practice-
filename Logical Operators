@@ -1,0 +1,9 @@
+Logical operators AND, OR, NOT are used in condition checking. Like a AND b checks if both a and b are true.
+a OR b checks if either of a or b is true. !a complements the boolean value of a.
+
+
+class Solution {
+    String booleanOperations(boolean a, boolean b) {
+        return (a && b) + " " + (a || b) + " " + (!a);
+    }
+}
