@@ -1,0 +1,11 @@
+You are given two string variables a and b, and you have to print a and b with a
+space between them. However, you must prevent the print statement from providing a 
+new line as the new line will be given by the main driver code.
+ class Solution {
+    public void utility(Scanner sc) {
+        // code here
+        String a=sc.next();
+        String b=sc.next();
+        System.out.print(a+" "+b);
+    }
+}
