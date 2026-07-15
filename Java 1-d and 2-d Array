@@ -1,0 +1,26 @@
+Given a integer n. We have n*n values of a 2-d array, and  n values of 1-d array. 
+Task is to find the sum of the left diagonal values of the 2-d array and 
+the max element of the 1-d array and print them with space in between.
+
+
+
+class Complete {
+    public static ArrayList<Integer> array(int a[][], int b[], int n) {
+        // Complete the function
+     ArrayList<Integer> ans= new ArrayList<>();
+
+        int sum=0;
+        int max=b[0];
+        for(int i=0;i<n;i++){
+           sum=sum+a[i][i];
+        }
+        for(int i=0;i<n;i++){
+            if(max<b[i]){
+                max=b[i];
+            }
+           
+        } ans.add(sum);
+            ans.add(max);
+        return ans;
+    }
+}
