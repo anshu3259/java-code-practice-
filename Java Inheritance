@@ -1,0 +1,10 @@
+Inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
+
+class cls2 extends cls1 {
+    void mul(int p, int q) { System.out.println(p * q); }
+
+    void task(int p, int q) {
+        // Add your code here.
+        add(p*p,q*q);
+    }
+}
