@@ -1,0 +1,27 @@
+For a given N, return an arraylist containing the sum of even and odd integers of the first N natural numbers.
+
+
+
+class Solution {
+    static ArrayList<Integer> getSum(int N) {
+        // code here
+        int even=0;
+        int odd=0;
+        
+        for(int i=1;i<=N;i++){
+                if(i%2==0){
+                    even=even+i;
+                }
+                else{
+                    odd=odd+i;
+                }
+              
+          }
+          
+           ArrayList<Integer> ans=new ArrayList<>();
+               ans.add(even);
+               ans.add(odd);
+        
+        return ans;
+    }
+}
